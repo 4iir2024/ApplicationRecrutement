@@ -1,0 +1,9 @@
+composer create-project laravel/laravel example-app
+
+php artisan serve
+
+
+php artisan migrate
+
+
+php artisan ui bootstrap --auth
